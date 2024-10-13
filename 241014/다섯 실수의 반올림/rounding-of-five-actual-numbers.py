@@ -1,0 +1,11 @@
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+
+print(f"{a:.3f}")
+print(f"{b:.3f}")
+print(f"{c:.3f}")
+print(f"{d:.3f}")
+print(f"{e:.3f}")
