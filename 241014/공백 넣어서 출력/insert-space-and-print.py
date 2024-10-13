@@ -1,5 +1,5 @@
 print("score\t\tsubject\t\tname")
 print("")
-print("  100\t\t   math\t\t sam")
+print("  100\t\t   math\t\tsam")
 print("   88\t\tscience\t\tpaul")
-print("   96\t       language\t\tjack")
+print("   96\t       language\t\t jack")
