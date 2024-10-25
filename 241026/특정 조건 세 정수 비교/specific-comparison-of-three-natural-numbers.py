@@ -4,7 +4,7 @@ if b < c and a == b:
     print("1", end = " ")
 elif b > c and a == c:
     print("1", end = " ")
-elif a < b < c:
+elif a <= b <= c:
     print("1", end = " ")
 else:
     print("0", end = " ")
