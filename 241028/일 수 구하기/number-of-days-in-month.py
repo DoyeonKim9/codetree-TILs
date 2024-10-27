@@ -1,6 +1,6 @@
 n = int(input())
 
-if n % 2 == 1:
+if n % 2 == 1 and n <= 8:
     print("31")
 else:
     if n == 2:
