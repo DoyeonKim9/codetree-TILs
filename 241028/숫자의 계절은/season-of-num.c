@@ -7,11 +7,11 @@ int main() {
     if (m >= 12 || m <= 2) {
         printf("Winter");
     }
-    else if (m > 2) {
-        printf("Spring");
-    }
     else if (m > 5) {
         printf("Summer");
+    }
+    else if (m > 2) {
+        printf("Spring");
     }
     else {
         printf("Fall");
