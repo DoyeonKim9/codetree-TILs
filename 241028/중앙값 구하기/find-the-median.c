@@ -19,6 +19,9 @@ int main() {
         if (b < c) {
             printf("%d", b);
         }
+        else if (a > c) {
+            printf("%d", a);
+        }
         else {
             printf("%d", c);
         }
