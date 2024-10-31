@@ -1,7 +1,8 @@
 a, b = map(int, input().split())
-n = a / b
-div1 = a % b * 10
-div2 = div1 % b
-print(f"{n:.1f}", end = "")
-for i in range(19):
-    print(div2, end = "")
+n = a // b
+print(f"{n}.", end = "")
+a %= b
+for i in range(20):
+    a *= 10
+    print(a // b, end="")
+    a %= b
