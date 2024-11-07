@@ -1,16 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, i;
+    int a, b;
     scanf("%d %d", &a, &b);
 
-    i = a;
-    while (i <= b) {
-        printf("%d ", i);
+    printf("%d ", a);
+    for (int i = a; i <= b;) {
         if (i % 2 == 1)
-            i *= 2;
-        else
+            i = i * 2;
+        else 
             i += 3;
+        if (i > b)
+            break;
+        printf("%d ", i);
+
     }
     return 0;
+
 }
