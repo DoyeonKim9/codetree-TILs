@@ -6,4 +6,4 @@ for i in range(n):
             print(i+1, end="")
         else:
             print(n-i, end="")
-        print() 
+    print() 
