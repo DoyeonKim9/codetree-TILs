@@ -1,8 +1,8 @@
 n = int(input())
 arr = list(map(int, input().split()))
-max1, max2 = arr[0], arr[1]
 
-if max1 > max2:
+
+if arr[0]> arr[1]:
     max1, max2 = arr[0], arr[1]
 else:
     max1, max2 = arr[1], aee[0]
