@@ -8,7 +8,7 @@ else:
     max1, max2 = arr[1], aee[0]
 
 for i in range(2, n):
-    if arr[i] > max1:
+    if arr[i] >= max1:
         max1, max2 = arr[i], max1
     elif arr[i] > max2:
         max2 = arr[i]
