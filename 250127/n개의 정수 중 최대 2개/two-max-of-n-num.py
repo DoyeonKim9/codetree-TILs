@@ -1,20 +1,15 @@
-import sys
 n = int(input())
 arr = list(map(int, input().split()))
-max_val = arr[0]
+max1, max2 = arr[0], arr[1]
 
-for i in arr:
-    if i > max_val:
-        max_val = i
+if max1 > max2:
+    max1, max2 = arr[0], arr[1]
+else:
+    max1, max2 = arr[1], aee[0]
 
-arr.remove(max_val)
-
-max_val2 = arr[0]
-
-for j in arr:
-    if j > max_val2:
-        max_val2 = j
-
-print(max_val, max_val2)
-
-
+for i in range(2, n):
+    if arr[i] > max1:
+        max1, max2 = arr[i], max1
+    elif arr[i] > max2:
+        max2 = arr[i]
+print(max1, max2)
