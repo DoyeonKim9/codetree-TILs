@@ -14,4 +14,4 @@ for i in range(n):
 if cnt == 0:
     print("-1")
 else:
-    print(max(arr1))
+    print(cnt)
